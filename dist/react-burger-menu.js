@@ -2202,7 +2202,7 @@ exports['default'] = function (styles) {
                     key: 'render',
                     value: function render() {
                         var _this3 = this;
-                        return _react2['default'].createElement('div', null, !this.props.noOverlay && _react2['default'].createElement('div', {
+                        return _react2['default'].createElement(_react2['default'].Fragment, null, !this.props.noOverlay && _react2['default'].createElement('div', {
                             className: ('bm-overlay ' + this.props.overlayClassName).trim(),
                             onClick: function () {
                                 return _this3.overlayClick();

@@ -358,7 +358,7 @@ export default styles => {
 
     render() {
       return (
-        <div>
+        <React.Fragment>
           {!this.props.noOverlay && (
             <div
               className={`bm-overlay ${this.props.overlayClassName}`.trim()}
@@ -441,7 +441,7 @@ export default styles => {
               </div>
             )}
           </div>
-        </div>
+        </React.Fragment>
       );
     }
   }
